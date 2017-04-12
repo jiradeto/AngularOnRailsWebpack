@@ -73069,7 +73069,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["T" /* Component */])({
             selector: 'pond-app',
-            template: " \n  <h1> haha it's working okok </h1>"
+            template: " <%= pond %>\n  <h1> haha it's working  </h1>"
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
@@ -73092,4 +73092,4 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dyna
 
 /***/ })
 /******/ ]);
-//# sourceMappingURL=app_d65e579ad17f980ad1e7.map
+//# sourceMappingURL=app_ecf747ce0d9a97413dc9.map
