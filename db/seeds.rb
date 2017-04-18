@@ -12,3 +12,8 @@ User.create(name: 'Nick')
 User.create(name: 'Pond')
 User.create(name: 'James')
 User.create(name: 'Lucas')
+
+
+
+
+User.create(name: 'Jiradet')

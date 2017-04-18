@@ -23,7 +23,7 @@ module.exports = {
 	// debug: true, // remove in production
 
 	entry: {
-		'app': './frontend/src/main.ts', // our angular app
+		'app': './frontend/src/main.ts', 
 		'vendor': './frontend/src/vendor.ts'
 	},
 	resolve: {
@@ -40,31 +40,29 @@ module.exports = {
 		publicPath: "wassets/"
 	},
 
-
-
-
 	module: {
 		rules: [{
-				test: /\.css$/,
-				use: 'css-loader'
-			},
-			{	enforce: 'pre',
+				enforce: 'pre',
 				test: /\.ts$/,
 				use: 'tslint-loader'
 			},
 			{
+				test: /\.css$/,
+				use: 'css-loader'
+			},
+			{
 				test: /\.ts$/,
 				use: 'ts-loader'
+			},
+			{
+				test: /\.html$/,
+				use: 'file-loader'
 			}
 		]
 	},
 
 	plugins: [
-
-		
-
 		assetsPluginInstance
-
 	],
 
 	// for vagrant
